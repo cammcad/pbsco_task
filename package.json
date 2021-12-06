@@ -1,0 +1,32 @@
+{
+  "name": "pbsco_task",
+  "version": "1.0.0",
+  "description": "NodeJS test task for Photobooth Supply Co",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write \"src/*.js\"",
+    "local": "PORT=8888 node ./src/index.js",
+    "start": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cammcad/pbsco_task.git"
+  },
+  "engines": {
+    "node": "v14.16.0"
+  },
+  "author": "prosperous cameron",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cammcad/pbsco_task/issues"
+  },
+  "homepage": "https://github.com/cammcad/pbsco_task#readme",
+  "dependencies": {
+    "data.task": "^3.1.2",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.5.1"
+  }
+}
