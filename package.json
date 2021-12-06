@@ -24,7 +24,8 @@
   "homepage": "https://github.com/cammcad/pbsco_task#readme",
   "dependencies": {
     "data.task": "^3.1.2",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "node-fetch": "^3.1.0"
   },
   "devDependencies": {
     "prettier": "^2.5.1"
